@@ -45,6 +45,7 @@ app.*.map.json
 
 i18n_generated/
 /.vscode/launch.json
+lib/i18n/
 
 *.g.dart
 *.freezed.dart
