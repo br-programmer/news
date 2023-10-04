@@ -4,7 +4,10 @@ A Flutter App of News and Weather
 
 ## Install
 
+run terminal command `make news_build` for generate `.freezed, .g and i18n`
+
 Before compiling the application, create the `launch.json` file following the `launch.json.example` file and attach their respective `api_key`.
+
 
 ## flutter packages used
 
