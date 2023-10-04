@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "favorite": "Favorito",
+    "profile": "Perfil"
+  },
+  "latestNews": "Últimas Noticias",
+  "seeAll": "Ver Todo",
+  "by": "Por",
+  "authorNotDefined": "Autor no definido",
+  "categories": {
+    "all": "Todos",
+    "business": "Negocios",
+    "entertainment": "Entretenimiento",
+    "general": "General",
+    "health": "Salud",
+    "science": "Ciencia",
+    "sports": "Deportes",
+    "technology": "Tecnología"
+  },
+  "noNewsFound": "No se encontraron noticias",
+  "searchNews": "Buscar noticias",
+  "writeForSearchNews": "Escribe en el campo de texto para iniciar la búsqueda de noticias",
+  "today": "Hoy",
+  "tomorrow": "Mañana",
+  "weatherCondition": {
+    "thunderstorm": "Tormenta eléctrica",
+    "drizzle": "Llovizna",
+    "rain": "Lluvia",
+    "snow": "Nieve",
+    "clouds": "Nublado",
+    "clear": "Despejado",
+    "mist": "Neblina",
+    "smoke": "Humo",
+    "haze": "Calina",
+    "fog": "Niebla",
+    "sand": "Arena",
+    "dust": "Polvo",
+    "ash": "Ceniza",
+    "squall": "Chubasco",
+    "tornado": "Tornado"
+  }
+}

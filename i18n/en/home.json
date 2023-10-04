@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "home": "Home",
+    "favorite": "Favorite",
+    "profile": "Profile"
+  },
+  "latestNews": "Latest News",
+  "seeAll": "See All",
+  "by": "By",
+  "authorNotDefined": "Author not defined",
+  "categories": {
+    "all": "All",
+    "business": "Business",
+    "entertainment": "Entertainment",
+    "general": "General",
+    "health": "Health",
+    "science": "Science",
+    "sports": "Sports",
+    "technology": "Technology"
+  },
+  "noNewsFound": "No news found",
+  "searchNews": "Search news",
+  "writeForSearchNews": "Write in the text field to start the news search",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "weatherCondition": {
+    "thunderstorm": "Thunderstorm",
+    "drizzle": "Drizzle",
+    "rain": "Rain",
+    "snow": "Snow",
+    "clouds": "Clouds",
+    "clear": "Clear",
+    "mist": "Mist",
+    "smoke": "Smoke",
+    "haze": "Haze",
+    "fog": "Fog",
+    "sand": "Sand",
+    "dust": "Dust",
+    "ash": "Ash",
+    "squall": "Squall",
+    "tornado": "Tornado"
+  }
+}

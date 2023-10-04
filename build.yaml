@@ -1,0 +1,24 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        generate_for:
+          include:
+            - "lib/core/shared/data/http/result.dart"
+            - "lib/core/shared/domain/failures/**.dart"
+            - "**/core/shared/domain/helpers/either.dart"
+            - "**/**_bloc.dart"
+            - "**/**_cubit.dart"
+            - "**/errors/**.dart"
+            - "**/entities/**.dart"
+      json_serializable:
+        options:
+          explicit_to_json: true
+        generate_for:
+          include:
+            - "**/errors/**.dart"
+            - "**/entities/**.dart"
+      source_gen|combining_builder:
+        options:
+          ignore_for_file:
+            - "type=lint"

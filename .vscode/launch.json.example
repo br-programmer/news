@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "news",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--dart-define",
+        "newsBaseUrl=https://newsapi.org",
+        "--dart-define",
+        "weatherBaseUrl=https://api.openweathermap.org",
+        "--dart-define",
+        "weatherIconsUrl=https://openweathermap.org/img/wn",
+        "--dart-define",
+        "newsApiKey=YOUR-NEWS-API-KEY",
+        "--dart-define",
+        "weatherApiKey=YOUR-OPENWEATHERMAP-API-KEY"
+      ]
+    }
+  ]
+}
