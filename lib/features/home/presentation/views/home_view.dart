@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/core/core.dart';
@@ -39,9 +41,18 @@ class HomeView extends StatelessWidget {
         ),
         BlocProvider(create: (_) => ValueCubit(value: '')),
       ],
-      child: const SafeArea(
+      child: SafeArea(
         bottom: false,
-        child: Column(children: [NewsAppBar(), gap4, _HomeViewBody()]),
+        child: Column(
+          children: [
+            if (Platform.isAndroid) ...[
+              gap8,
+            ],
+            const NewsAppBar(),
+            gap4,
+            const _HomeViewBody(),
+          ],
+        ),
       ),
     );
   }
