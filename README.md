@@ -28,6 +28,4 @@ Before compiling the application, create the `launch.json` file following the `l
 - flutter_gen
 
 ## Video App Demo
-<video width="250" height="500" controls>
-  <source src="https://github.com/br-programmer/news/assets/30538983/aee962bc-73c9-4028-9962-8cd2bc1e531d" type="video/mp4">
-</video
+https://github.com/br-programmer/news/assets/30538983/aee962bc-73c9-4028-9962-8cd2bc1e531d" type="video/mp4
